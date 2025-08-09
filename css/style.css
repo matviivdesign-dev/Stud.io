@@ -11,3 +11,47 @@ body {
    background-color: var(--secondary);
    color: var(--dark);
 }
+
+.container {
+  max-width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  gap: 8vw;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+
+.heder_nav {
+  flex-grow: 1;
+  display: flex;
+  gap: 4vw;
+}
+
+.heder_link {
+  color: #FBFBFB;
+  text-decoration: none;
+  transition: .4s;
+
+}
+
+.heder_link:hover {
+  color: var(--primary)
+}
+
+.heder_btn {
+  font-size: 18px;
+  color: #FBFBFB;
+  border: none;
+  background-color: var(--secondary);
+  padding: 16px 24px;
+}
